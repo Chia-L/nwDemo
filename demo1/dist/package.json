@@ -1,0 +1,36 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "nwjs-builder-phoenix": "^1.15.0"
+  },
+  "build": {
+    "files": [
+      "dist/**/*"
+    ],
+    "output": "./releases",
+    "nwVersion": "0.14.7",
+    "nwPlatforms": [
+      "win"
+    ],
+    "nwArchs": [
+      "x64"
+    ],
+    "overriddenProperties": {
+      "main": "dist/main.js"
+    },
+    "win": {
+      "productName": "fff",
+      "companyName": "seeing",
+      "copyright": "copyright",
+      "icon": ""
+    },
+    "window": {
+      "icon": ""
+    },
+    "targets": [
+      "zip"
+    ]
+  }
+}

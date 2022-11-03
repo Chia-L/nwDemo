@@ -1,6 +1,10 @@
-# anit_try
+# anit_try（多window手动nw打包版本）
 
 > A Vue.js project
+
+## 手动打包说明
+
+在dist的上层目录执行`run build`，用nwjs将dist中的产物连同main.js和pack.json一同打包
 
 ## Build Setup
 
